@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  clase-yepes:
+    image: clase-yepes
+    build: .
+    ports:
+      - 3000
